@@ -1,0 +1,16 @@
+<table class="table table-dark">
+    <thead>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let account of accounts">
+            <th>{{ account.createdAt }}</th>
+            <th>{{ account.account_name }}</th>
+            <th>{{ account.available_balance }}</th>
+            <th>
+                <img src="{{account.user_image }}" width="100px" height="100px">
+            </th>
+            <th>{{ account.id }}</th>
+        </tr>
+    </tbody>
+</table>

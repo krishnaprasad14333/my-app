@@ -1,0 +1,36 @@
+
+
+
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1601108691646-d7f0a1e4ba6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    text-align: center;
+}
+
+.left>h6{
+    cursor: pointer;
+}
+.left>h6:hover{
+    color: rgb(180, 164, 164);
+}
+.right{
+    height: 100%;
+    width: 80%;
+    background-image: url(https://wallpaperaccess.com/full/51367.jpg);
+    overflow: auto;
+    text-align: center;
+    padding-top: 10%;
+
+}
+/* input{
+    margin: 0px;
+    border-radius: 50px;
+    padding: 20px;
+} */
+

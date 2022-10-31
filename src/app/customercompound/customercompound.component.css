@@ -1,0 +1,9 @@
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fil{
+    background-color: rgb(94, 148, 138);
+}

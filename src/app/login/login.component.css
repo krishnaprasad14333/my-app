@@ -1,0 +1,18 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    background-image:url(https://img.freepik.com/premium-vector/painted-background-multicoloured-palette_23-2148427592.jpg?w=2000); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 50%;
+    width:  50%;
+    background-image: url(https://thumbs.dreamstime.com/b/wood-background-wallpaper-hd-123273980.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
